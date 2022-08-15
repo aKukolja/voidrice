@@ -21,7 +21,7 @@ alias \
 	bc="bc -ql" \
 	mkd="mkdir -pv" \
 	yt="yt-dlp --embed-metadata -i" \
-	yta="yt -x -f bestaudio/best" \
+	yta="noglob youtube-dl --add-metadata -i -x -f bestaudio/best" \
 	ffmpeg="ffmpeg -hide_banner"
 
 # Colorize commands when possible.
