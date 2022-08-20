@@ -46,6 +46,8 @@ alias \
 	xr="sudo xbps-remove -R" \
 	xq="xbps-query" \
 	z="zathura"
+	ll="ls -l" \
+	la="ll -a"
 
 alias \
 	lf="lfub" \
